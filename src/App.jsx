@@ -83,6 +83,8 @@ export default function ImageSlider() {
           onClick={() => changeSlide(1)}
           aria-label="次の背景画像"
         >
+
+          //commit
           →
         </button>
       </nav>
