@@ -3,10 +3,12 @@ import { useEffect, useState } from "react";
 import "./App.css";
 
 
+const version = "2";
+
 const images = [
-  `${import.meta.env.BASE_URL}images/image1.jpg`,
-  `${import.meta.env.BASE_URL}images/image2.jpg`,
-  `${import.meta.env.BASE_URL}images/image3.jpg`,
+  `${import.meta.env.BASE_URL}images/image1.jpg?v=${version}`,
+  `${import.meta.env.BASE_URL}images/image2.jpg?v=${version}`,
+  `${import.meta.env.BASE_URL}images/image3.jpg?v=${version}`,
 ];
 
 
