@@ -1,0 +1,20 @@
+{
+  "id": "./",
+  "name": "時のサイト.com｜現在の時刻",
+  "short_name": "時刻",
+  "description": "現在の時刻を確認できるサイトです。",
+  "start_url": "./",
+  "scope": "./",
+  "display": "standalone",
+  "orientation": "any",
+  "background_color": "#ffffff",
+  "theme_color": "#111111",
+  "icons": [
+    {
+      "src": "./icon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml",
+      "purpose": "any"
+    }
+  ]
+}
